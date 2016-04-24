@@ -1,0 +1,48 @@
+{
+  "name": "afm-info",
+  "version": "0.1.0",
+  "description": "Retrieve info about a Greek tax registration number (AFM)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "ci": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greecejs/afm-info.git"
+  },
+  "keywords": [
+    "afm",
+    "vat",
+    "tax",
+    "gsis",
+    "greece",
+    "greek"
+  ],
+  "author": {
+    "name": "Thanos Lefteris",
+    "email": "alefteris@gmail.com",
+    "url": "http://thanoslefteris.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greecejs/afm-info/issues"
+  },
+  "homepage": "https://github.com/greecejs/afm-info#readme",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "wsdl.xml"
+  ],
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "soap": "^0.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
