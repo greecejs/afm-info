@@ -43,6 +43,10 @@ afmInfo.info('090000045')
 //  }
 ```
 
+## Related
+
+Other clients for this web service can be found at [dspinellis/greek-vat-data](https://github.com/dspinellis/greek-vat-data).
+
 ## License
 
 [MIT](http://opensource.org/licenses/mit-license.php)
